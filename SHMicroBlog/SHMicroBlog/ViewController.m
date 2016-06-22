@@ -7,9 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "SHModel.h"
 
 @interface ViewController ()
 
+@property (nonatomic, strong) SHModel *model;
 @end
 
 @implementation ViewController

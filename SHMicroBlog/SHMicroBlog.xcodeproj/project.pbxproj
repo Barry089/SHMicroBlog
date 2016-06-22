@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD1ADFE31D1AA0DA006DAF78 /* SHModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1ADFE21D1AA0DA006DAF78 /* SHModel.m */; settings = {ASSET_TAGS = (); }; };
 		AD9BAD821D193EDF00D52F6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9BAD811D193EDF00D52F6E /* main.m */; };
 		AD9BAD851D193EDF00D52F6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9BAD841D193EDF00D52F6E /* AppDelegate.m */; };
 		AD9BAD881D193EDF00D52F6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9BAD871D193EDF00D52F6E /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD1ADFE11D1AA0DA006DAF78 /* SHModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHModel.h; sourceTree = "<group>"; };
+		AD1ADFE21D1AA0DA006DAF78 /* SHModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHModel.m; sourceTree = "<group>"; };
 		AD9BAD7D1D193EDF00D52F6E /* SHMicroBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHMicroBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9BAD811D193EDF00D52F6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD9BAD831D193EDF00D52F6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +63,8 @@
 			children = (
 				AD9BAD831D193EDF00D52F6E /* AppDelegate.h */,
 				AD9BAD841D193EDF00D52F6E /* AppDelegate.m */,
+				AD1ADFE11D1AA0DA006DAF78 /* SHModel.h */,
+				AD1ADFE21D1AA0DA006DAF78 /* SHModel.m */,
 				AD9BAD861D193EDF00D52F6E /* ViewController.h */,
 				AD9BAD871D193EDF00D52F6E /* ViewController.m */,
 				AD9BAD891D193EDF00D52F6E /* Main.storyboard */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD1ADFE31D1AA0DA006DAF78 /* SHModel.m in Sources */,
 				AD9BAD881D193EDF00D52F6E /* ViewController.m in Sources */,
 				AD9BAD851D193EDF00D52F6E /* AppDelegate.m in Sources */,
 				AD9BAD821D193EDF00D52F6E /* main.m in Sources */,
@@ -298,6 +304,7 @@
 				AD9BAD961D193EDF00D52F6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
