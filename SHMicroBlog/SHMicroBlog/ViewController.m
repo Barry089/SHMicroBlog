@@ -8,10 +8,12 @@
 
 #import "ViewController.h"
 #import "SHModel.h"
+#import "SHhttpManager.h"
 
 @interface ViewController ()
 
 @property (nonatomic, strong) SHModel *model;
+@property (nonatomic, strong) SHhttpManager *manager;
 @end
 
 @implementation ViewController
@@ -19,6 +21,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self sayWorlds];
+}
+
+- (void)sayWorlds {
+    NSLog(@"Hello Git and create branch2");
 }
 
 - (void)didReceiveMemoryWarning {

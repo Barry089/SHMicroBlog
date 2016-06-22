@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AD1ADFE31D1AA0DA006DAF78 /* SHModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1ADFE21D1AA0DA006DAF78 /* SHModel.m */; settings = {ASSET_TAGS = (); }; };
+		AD1ADFE61D1AA251006DAF78 /* SHhttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1ADFE51D1AA251006DAF78 /* SHhttpManager.m */; settings = {ASSET_TAGS = (); }; };
 		AD9BAD821D193EDF00D52F6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9BAD811D193EDF00D52F6E /* main.m */; };
 		AD9BAD851D193EDF00D52F6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9BAD841D193EDF00D52F6E /* AppDelegate.m */; };
 		AD9BAD881D193EDF00D52F6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9BAD871D193EDF00D52F6E /* ViewController.m */; };
@@ -19,6 +20,8 @@
 /* Begin PBXFileReference section */
 		AD1ADFE11D1AA0DA006DAF78 /* SHModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHModel.h; sourceTree = "<group>"; };
 		AD1ADFE21D1AA0DA006DAF78 /* SHModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHModel.m; sourceTree = "<group>"; };
+		AD1ADFE41D1AA251006DAF78 /* SHhttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHhttpManager.h; sourceTree = "<group>"; };
+		AD1ADFE51D1AA251006DAF78 /* SHhttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHhttpManager.m; sourceTree = "<group>"; };
 		AD9BAD7D1D193EDF00D52F6E /* SHMicroBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHMicroBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9BAD811D193EDF00D52F6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD9BAD831D193EDF00D52F6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,6 +68,8 @@
 				AD9BAD841D193EDF00D52F6E /* AppDelegate.m */,
 				AD1ADFE11D1AA0DA006DAF78 /* SHModel.h */,
 				AD1ADFE21D1AA0DA006DAF78 /* SHModel.m */,
+				AD1ADFE41D1AA251006DAF78 /* SHhttpManager.h */,
+				AD1ADFE51D1AA251006DAF78 /* SHhttpManager.m */,
 				AD9BAD861D193EDF00D52F6E /* ViewController.h */,
 				AD9BAD871D193EDF00D52F6E /* ViewController.m */,
 				AD9BAD891D193EDF00D52F6E /* Main.storyboard */,
@@ -157,6 +162,7 @@
 				AD1ADFE31D1AA0DA006DAF78 /* SHModel.m in Sources */,
 				AD9BAD881D193EDF00D52F6E /* ViewController.m in Sources */,
 				AD9BAD851D193EDF00D52F6E /* AppDelegate.m in Sources */,
+				AD1ADFE61D1AA251006DAF78 /* SHhttpManager.m in Sources */,
 				AD9BAD821D193EDF00D52F6E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
